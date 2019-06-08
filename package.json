@@ -4,13 +4,15 @@
   "description": "A simple MicroPosts project using modern JavaScript",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --port 3000 --mode development",
+    "start": "webpack-dev-server --watch --port 9000 --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server": "json-server --watch api/db.json"
   },
   "author": "Debbie Ellis",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "json-server": "^0.15.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
