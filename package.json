@@ -4,7 +4,7 @@
   "description": "A simple MicroPosts project using modern JavaScript",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --port 9966 --mode development",
+    "start": "webpack-dev-server --watch --port 3000 --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
